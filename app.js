@@ -10,7 +10,7 @@ function sortear(){
         proteção.innerHTML = ('<label class="texto__paragrafo">Campo "Do número" deve ser inferior ao campo "Até o número". Verifique!</label>')
         return;
     }
-    if (quantidade > (de - ate + 1)) {
+    if (quantidade > (ate - de + 1) {
         let numeroInedito = document.getElementById('resultado');
         numeroInedito.innerHTML = ('<label class="texto__paragrafo">Campo "Quantidade" deve ser menor ou igual ao intervalo informado no campo "Do número" até o campo "Até o número". Verifique!</label>')
         return;
