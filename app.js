@@ -3,7 +3,7 @@ function sortear(){
     let de = parseInt(document.getElementById('de').value);
     let ate = parseInt(document.getElementById('ate').value);
 
-    //proteção de>ate
+    //proteção deate
 
     if (de >= ate){
         let proteção = document.getElementById('resultado');
